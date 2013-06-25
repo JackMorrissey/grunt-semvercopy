@@ -1,4 +1,4 @@
-# grunt-semverCopy
+# grunt-semverCopy [![Build Status](https://api.travis-ci.org/JackMorrissey/grunt-semverCopy.png?branch=master)](https://api.travis-ci.org/JackMorrissey/grunt-semverCopy)
 
 > Identifies and copies the contents of a folder named with Semantic Versioning
 
