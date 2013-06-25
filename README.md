@@ -1,4 +1,4 @@
-# grunt-semverCopy [![Build Status](https://api.travis-ci.org/JackMorrissey/grunt-semverCopy.png?branch=master)](https://travis-ci.org/JackMorrissey/grunt-semverCopy)
+# grunt-semvercopy [![Build Status](https://api.travis-ci.org/JackMorrissey/grunt-semvercopy.png?branch=master)](https://travis-ci.org/JackMorrissey/grunt-semvercopy)
 
 > Identifies and copies the contents of a folder named with Semantic Versioning
 
@@ -8,23 +8,23 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-semverCopy --save-dev
+npm install grunt-semvercopy --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-semverCopy');
+grunt.loadNpmTasks('grunt-semvercopy');
 ```
 
-## The "semverCopy" task
+## The "semvercopy" task
 
 ### Overview
-In your project's Gruntfile, add a section named `semverCopy` to the data object passed into `grunt.initConfig()`. semverCopy is a [multi-task](http://gruntjs.com/configuring-tasks#task-configuration-and-targets).
+In your project's Gruntfile, add a section named `semvercopy` to the data object passed into `grunt.initConfig()`. semvercopy is a [multi-task](http://gruntjs.com/configuring-tasks#task-configuration-and-targets).
 
 ```js
 grunt.initConfig({
-	semverCopy: {
+	semvercopy: {
 		taskTarget: {
 			resources: {
 					name: "ResourceName",
@@ -76,7 +76,7 @@ A possible gruntfile could look like -
 
 ```js
 grunt.initConfig({
-	semverCopy: {
+	semvercopy: {
 		development: {
 			resources: {
 				name: "CoreAPI",
@@ -99,7 +99,7 @@ Single Object
 
 ```js
 grunt.initConfig({
-	semverCopy: {
+	semvercopy: {
 		taskTarget: {
 			resources: {
 				name: "ResourceName",
@@ -116,7 +116,7 @@ Single JSON file
 
 ```js
 grunt.initConfig({
-	semverCopy: {
+	semvercopy: {
 		taskTarget: {
 			resourcesFiles: 'path/to/someFile.json'
 		}
@@ -128,7 +128,7 @@ Multiple Objects
 
 ```js
 grunt.initConfig({
-	semverCopy: {
+	semvercopy: {
 		taskTarget: {
 			resources: {
 				name: "ResourceName",
@@ -150,7 +150,7 @@ Multiple JSON files
 
 ```js
 grunt.initConfig({
-	semverCopy: {
+	semvercopy: {
 		taskTarget: {
 			resourcesFiles: ['path/to/someFile.json', 'path/to/anotherFile.json']
 		}

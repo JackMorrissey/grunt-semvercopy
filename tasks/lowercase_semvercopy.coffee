@@ -28,7 +28,7 @@ module.exports = (grunt) ->
 	parseResources = (dataResources, resourcesFiles) ->
 		resources = []
 		if !dataResources and !resourcesFiles
-			grunt.fail.warn "semverCopy config needs at least one of 'resources' or 'resourcesFiles' set."
+			grunt.fail.warn "semvercopy config needs at least one of 'resources' or 'resourcesFiles' set."
 		if dataResources
 			resources = resources.concat resolveToArray dataResources
 		if resourcesFiles
@@ -77,7 +77,7 @@ module.exports = (grunt) ->
 		grunt.task.run 'copy:' + uniqueName
 		grunt.verbose.oklns "With range " + resource.range + ", " + srcFolder + " queued to copy to " + destination
 		
-	grunt.registerMultiTask  'semverCopy', 'Copies the contents of a folder named with Semantic Versioning', () ->
+	grunt.registerMultiTask  'semvercopy', 'Copies the contents of a folder named with Semantic Versioning', () ->
 		#raw resources object/object array
 		dataResources = @data.resources
 

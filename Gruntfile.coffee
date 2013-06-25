@@ -2,7 +2,7 @@ module.exports = (grunt) ->
 	grunt.initConfig
 		clean:
 			test: ['tmp']
-		semverCopy:
+		semvercopy:
 			inlineObject:
 				resources:
 					name: "inlineResource"
@@ -36,5 +36,5 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks 'grunt-contrib-nodeunit'
 
 
-	grunt.registerTask 'test', ['clean', 'semverCopy', 'nodeunit']
+	grunt.registerTask 'test', ['clean', 'semvercopy', 'nodeunit']
 	grunt.registerTask 'default', ['test']
