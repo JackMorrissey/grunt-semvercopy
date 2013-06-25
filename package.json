@@ -2,25 +2,26 @@
   "name": "grunt-semverCopy",
   "description": "Identifies and copies the contents of a folder named with Semantic Versioning",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://github.com/JackMorrissey/grunt-semverCopy",
   "author": {
     "name": "Jack Morrissey",
     "email": "github@jmmorrissey.com"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git://github.com/JackMorrissey/grunt-semverCopy"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/JackMorrissey/grunt-semverCopy/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "/blob/master/LICENSE-MIT"
+      "url": "https://github.com/JackMorrissey/grunt-semverCopy/blob/master/LICENSE-MIT"
     }
   ],
   "bin": "bin/grunt-semverCopy",
+  "main": "Gruntfile.coffee",
   "engines": {
     "node": ">= 0.8.0"
   },
