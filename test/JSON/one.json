@@ -1,0 +1,8 @@
+{
+	"resources": {
+		"name": "JSONResource",
+		"range": "1.1.0",
+		"parentDirectory": "test/fixtures/MyResource",
+		"dest": "tmp/JSONResource/"
+	}
+}

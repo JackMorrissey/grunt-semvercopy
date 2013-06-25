@@ -1,0 +1,48 @@
+{
+  "name": "grunt-semverCopy",
+  "description": "Identifies and copies the contents of a folder named with Semantic Versioning",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Jack Morrissey",
+    "email": "github@jmmorrissey.com"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": "bin/grunt-semverCopy",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "grunt-contrib-copy": "~0.4.1",
+    "semver": "~2.0.8"
+  },
+  "keywords": [
+    "gruntplugin",
+    "semver",
+    "copy",
+    "folder"
+  ]
+}

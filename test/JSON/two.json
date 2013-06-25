@@ -1,0 +1,15 @@
+{
+	"resources": [
+		{
+			"name": "JSONResourcesA",
+			"range": "~1.1.1",
+			"parentDirectory": "test/fixtures/MyResource",
+			"dest": "tmp/JSONResources/A"
+		},{
+			"name": "JSONResourcesB",
+			"range": "~2",
+			"parentDirectory": "test/fixtures/MyResource",
+			"dest": "tmp/JSONResources/B"
+		}
+	]
+}
