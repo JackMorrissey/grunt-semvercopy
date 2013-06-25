@@ -24,9 +24,9 @@ module.exports = (grunt) ->
 					}
 				]
 			jsonFile: 
-				resourcesFiles: './test/json/one.json'
+				resourcesFiles: './test/JSON/one.json'
 			jsonFiles:
-				resourcesFiles: ['./test/json/one.json', './test/json/two.json']
+				resourcesFiles: ['./test/JSON/one.json', './test/JSON/two.json']
 		nodeunit:
 			tests: ['./test/*_test.js']
 
