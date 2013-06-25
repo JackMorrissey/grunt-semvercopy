@@ -1,7 +1,7 @@
 {
   "name": "grunt-semverCopy",
   "description": "Identifies and copies the contents of a folder named with Semantic Versioning",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/JackMorrissey/grunt-semverCopy",
   "author": {
     "name": "Jack Morrissey",
