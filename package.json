@@ -30,15 +30,16 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-nodeunit": "~0.1.2",
     "grunt-contrib-clean": "~0.4.0"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1"
   },
   "dependencies": {
-    "grunt-contrib-copy": "~0.4.1",
-    "semver": "~2.0.8"
+    "semver": "~2.1.0"
   },
   "keywords": [
     "gruntplugin",
